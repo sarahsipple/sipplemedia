@@ -44,10 +44,75 @@ header ul li a {
     color: #000;
 }
 /* Brands */
+.vertline {
+    background-color: #c1bfb1;
+}
+
+.brands h2 {
+    margin: 10px;
+}
+
+.brands-cards {
+    margin: 10px;
+    width: 285px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #3b3339;
+    box-shadow: 5px 5px 5px #3b3339;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.brands-cards-modminlifestyle {
+    padding: 10px;
+}
+.brands-cards-modminhome {
+    padding: 10px;
+}
+.brands-cards-grandrapidsreads {
+    padding: 10px;
+}
+.brands-cards h3 {
+    display: flex;
+    justify-content: center;
+}
+.brands-cards img {
+    max-width: 200px;
+    justify-content: center;
+}
+.brands-cards p {
+    
+}
 
 /* Services */
+.services h2 {
+    margin: 10px;
+}
+
+.services p {
+    margin: 10px;
+    max-width: 70vw;
+    display: flex;
+    justify-content: center;
+}
 
 /* About */
+
+.about {
+
+}
+
+.about h2 {
+    margin: 10px;
+}
+
+.about p {
+    margin: 10px;
+    max-width: 70vw;
+    display: flex;
+    justify-content: center;
+}
 
 /* Footer */
 
@@ -82,4 +147,12 @@ footer a {
 
 .footer-socials li {
     margin: 0.5em;
+}
+
+/* Mobile Version */
+
+@media only screen and (max-width: 620px) {
+    header ul {
+        display: none;
+    }
 }
